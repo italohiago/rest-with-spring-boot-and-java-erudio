@@ -1,0 +1,16 @@
+INSERT INTO `person` (`id`, `adress`,`first_name`, `gender`, `last_name`) VALUES 
+	(1,'Bahia','italo','Male','Lopes'),
+	(3,'Bahia','italo','Male','Lopes'),
+	(4,'Bahia','italo','Male','Lopes'),
+	(6,'Bahia','italo','Male','Lopes'),
+	(7,'Bahia','italo','Male','Lopes'),
+	(9,'Bahia','italo','Male','Lopes'),
+	(10,'Bahia','italo','Male','Lopes'),
+	(11,'Bahia','italo','Male','Lopes'),
+	(12,'Bahia','italo','Male','Lopes'),
+	(13,'Bahia','italo','Male','Lopes'),
+	(14,'Bahia','italo','Male','Lopes'),
+	(15,'Bahia','italo','Male','Lopes'),
+	(16,'Bahia','italo','Male','Lopes'),
+	(17,'Bahia','italo','Male','Lopes'),
+	(18,'Bahia','italo','Male','Lopes');

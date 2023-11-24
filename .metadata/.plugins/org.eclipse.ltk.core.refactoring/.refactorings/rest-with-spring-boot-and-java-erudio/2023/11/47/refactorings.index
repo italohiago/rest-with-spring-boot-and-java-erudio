@@ -8,3 +8,6 @@
 1700860501051	Rename package 'br.com.erudio.unittests'
 1700860558528	Delete element
 1700860800172	Move compilation unit
+1700869299434	Copy file
+1700869443646	Rename resource 'V1_Create_Table_person.sql'
+1700869450485	Rename resource 'V2_Populate_Table_Person.sql'
