@@ -1,0 +1,22 @@
+package br.com.erudio.mapper.custom;
+
+import java.util.Date;
+
+import org.springframework.stereotype.Service;
+
+import br.com.erudio.model.Person;
+import br.com.erudio.vo.v2.PersonVOV2;
+
+@Service
+public class PersonMapper {
+	public PersonVOV2 convertEntityToVo(Person person) {
+		PersonVOV2 vo = new PersonVOV2();
+		vo.setId(0);
+		vo.setFirstName(person.getFirstName());
+		vo.setLastName(person.getLastName());
+		vo.setAdress(person.getAdress());
+		vo.setBirthday(new Date());
+		vo.setGender(person.getGender());
+		
+	}
+}
