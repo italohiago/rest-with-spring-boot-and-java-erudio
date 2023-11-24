@@ -1,0 +1,40 @@
+package br.com.erudio.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MathService {
+	
+	public double calculateRaiz(double number) {
+        return Math.sqrt(number);
+    }
+	
+	public double calculateSum(double numberOne, double numberTwo) {
+        return numberOne+numberTwo;
+    }
+	
+	public double calculateSub(double numberOne, double numberTwo) {
+        return numberOne-numberTwo;
+    }
+	
+	public double calculateDiv(double numberOne, double numberTwo) {
+        return numberOne/numberTwo;
+    }
+	
+	public double calculateMed(double numberOne, double numberTwo) {
+        return (numberOne+numberTwo)/2;
+    }
+	
+	public double parseDouble(String numberStr) {
+		return Double.parseDouble(numberStr);
+	}
+	
+	public static boolean isDoubleAndNotEmpty(String strNumber) {
+		try {
+			Double.parseDouble(strNumber);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+}
