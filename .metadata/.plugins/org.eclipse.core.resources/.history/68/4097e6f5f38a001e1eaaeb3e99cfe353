@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    dbcp2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/rest_spring_crud?useTimezone=true&serverTimezone=utc
+      username: root
+      password: italo123
